@@ -1,4 +1,4 @@
-# Mobile Compatibility Test Cases (Google Pixel 6)
+# Mobile Compatibility Test Cases (Google Pixel 6, Google Chrome)
 
 | ID | Feature | Priority | Test Steps | Expected Result | Status |
 |:---|:---|:---|:---|:---|:---|
