@@ -34,3 +34,14 @@ Professional QA assessment of a Weather Forecasting web application. This projec
 ### 🛠 Post-Assessment Improvements
 - **Mobile Verification:** Performed a dedicated mobile audit using a Google Pixel 6. Identified issues with touch target sizes and keyboard overlapping. 
   - [View Mobile Test Cases](./Test_cases_mobile.md)
+ 
+## 💡 Lessons Learned & Reflections
+- **Mobile-Specific Issues:** Testing on a physical Google Pixel 6 revealed layout shifts that were not visible on Desktop Chrome DevTools.
+- **Data Integrity is Key:** The most critical bugs found were related to backend data units (UV Index %), highlighting the importance of domain-specific knowledge in QA.
+- **Iterative Improvement:** Even after a project deadline, re-evaluating the product leads to deeper insights and better overall quality.
+
+### 🎨 UX/UI Assessment
+Beyond functional bugs, I evaluated the application's usability:
+- **Navigation:** The "Hamburger menu" on mobile is functional, but the absence of a "Back to Top" button makes long forecast lists tedious to navigate.
+- **Clarity:** Important information (City Name) lacks visual weight, leading to a poor "At-a-glance" experience.
+- **Consistency:** Weather icons do not always align with the data context (e.g., clear sky icon shown during high precipitation).
