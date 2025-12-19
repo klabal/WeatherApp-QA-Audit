@@ -29,4 +29,8 @@ Professional QA assessment of a Weather Forecasting web application. This projec
 ## 🛠 Tools & Environment
 - **OS:** Windows 10
 - **Browser:** Google Chrome (Latest)
-- **Methodology:** Manual Functional Testing, Exploratory Testing.
+- **Methodology:** Manual Functional Testing, Exploratory Testing, Regression Testing
+
+### 🛠 Post-Assessment Improvements
+- **Mobile Verification:** Performed a dedicated mobile audit using a Google Pixel 6. Identified issues with touch target sizes and keyboard overlapping. 
+  - [View Mobile Test Cases](./Test_cases_mobile.md)
