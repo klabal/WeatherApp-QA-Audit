@@ -3,7 +3,7 @@
 | ID | Feature | Priority | Test Steps | Expected Result | Status | Actual Result |
 |:---|:---|:---|:---|:---|:---|:---|
 | 1 | Success Login | Critical | 1. Open App. 2. Enter valid credentials. 3. Click Log in. | User is logged in and redirected to dashboard. | **Pass** | Logged in successfully. |
-| 2 | Failed Login | High | 1. Enter invalid credentials. 2. Click Log in. | "Invalid credentials" error message in red. | **Fail** |  ![Shows "username is required" instead of auth error.](./screenshots/tc-1.png) |
+| 2 | Failed Login | High | 1. Enter invalid credentials. 2. Click Log in. | "Invalid credentials" error message in red. | **Fail** | Shows "username is required" instead of auth error. ![Screenshot.](./screenshots/tc-1.png) |
 | 3 | Empty Login | Medium | 1. Leave fields empty. 2. Click Log in. | "Field is required" validation messages. | **Pass** | Correct validation displayed. |
 | 4 | Security: Spec. Chars | Medium | 1. Enter `ĄĖĘ ; #$%^&` in login. | System handles/sanitizes input. | **Fail** | Generic required field error; no sanitization check. |
 | 5 | Logout | Medium | 1. Log in. 2. Click Logout. 3. Access `/home`. | Session is destroyed; access denied. | **Pass** | Successfully logged out. |
