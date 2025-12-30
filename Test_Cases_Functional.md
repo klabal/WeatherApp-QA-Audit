@@ -18,7 +18,7 @@
 | 14 | Sorting (Single) | Medium | 1. Click arrows on Name/Country. | Results sorted A-Z or Z-A. | **Pass** | Alphabetical sorting works. |
 | 15 | Sorting (Multi) | Medium | 1. Sort by Country then Name. | Multi-level sorting applied. | **Pass** | Works as expected. |
 | 16 | Sorting (Reverse) | Medium | 1. Sort Z-A. | Results reversed correctly. | **Pass** | Works as expected. |
-| 17 | Reset Action | Medium | 1. Apply sort/filter. 2. Click Reset. | Option to return to default view. | **Fail** | No "Reset/Clear" button available. ![Screenshot.](./screenshots/tc-7.png) |
+| 17 | Reset Action | Medium | 1. Apply sort/filter. 2. Click Reset. | Option to return to default view. | **Fail** | No "Reset/Clear" button available. ![Screenshot.](./screenshots/tc-6.png) |
 | 18 | Bookmarking | High | 1. Click bookmark icon on city. | City added to Favorites sidebar. | **Pass** | Added correctly. ![Screenshot.](./screenshots/tc-8-1.png) |
 | 19 | Guest Bookmarking | High | 1. Bookmark without login. | Prompt to login or feature disabled. | **Fail** | Icon visible but doesn't function for guests. |
 | 20 | Remove Bookmark | Medium | 1. Click "X" on favorite. | Item removed; list updates. | **Fail** | List updates only after manual refresh. ![Screenshot.](./screenshots/tc-8-3.png) |
